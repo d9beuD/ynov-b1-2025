@@ -1,87 +1,399 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Albums</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/albums.css">
 </head>
+
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="/index.html">Accueil</a>
-      </li>
-      <li>
-        <a href="/albums.html">Albums</a>
-      </li>
-      <li>
-        <a href="/contact.html">Contact</a>
-      </li>
-    </ul>
+  <nav id="main-navbar">
+    <div class="container">
+      <ul>
+        <li>
+          <span class="nav-link nav-brand">Dr. Peacock</span>
+        </li>
+        <li>
+          <a class="nav-link" href="/index.html">Accueil</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/albums.html">Albums</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  <h1>Albums</h1>
+  <div class="container">
+    <h1>Albums</h1>
 
-  <img src="https://i.scdn.co/image/ab67616d00001e0202477672dc7a40b6faaebaad" alt="Illustration d'album">
-  <h2>The Doc's Experiment - Proof 2</h2>
+    <ul class="album-list">
+      <li class="album">
+        <div class="album-side">
+          <img src="https://i.scdn.co/image/ab67616d00001e0202477672dc7a40b6faaebaad" alt="Illustration d'album">
 
-  <ul>
-    <li>Trip to the Middle Ages</li>
-    <li>Trip to España</li>
-    <li>Pointless Wars</li>
-    <li>Trip to Scotland</li>
-    <li>The Sky on Fire</li>
-    <li>The Hypnotist</li>
-    <li>Trip to Serbia</li>
-    <li>The Doctor Said</li>
-    <li>Hit the Road Jack</li>
-    <li>Total Stranger</li>
-    <li>Trip to Morocco</li>
-    <li>Trip to Greece</li>
-  </ul>
+          <ul class="album-info">
+            <li>12 morceaux</li>
+            <li>42 minutes</li>
+          </ul>
+        </div>
+        
+        <div class="album-content">
+          <h2 class="album-title">The Doc's Experiment - Proof 2</h2>
+          
+          <div class="album-actions">
+            <button class="btn">Lecture</button>
+            <button class="btn">Aléatoire</button>
+          </div>
+  
+          <ul class="track-list">
+            <li class="track">
+              <div class="track-title">
+                Trip to the Middle Ages
+                <div class="track-featuring">feat. Sunhiausa</div>
+              </div>
+              <div class="track-duration">3:35</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to España
+                <div class="track-featuring">feat. Broken Minds</div>
+              </div>
+              <div class="track-duration">3:42</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Pointless Wars
+                <div class="track-featuring">feat. The Sickest Squad</div>
+              </div>
+              <div class="track-duration">3:26</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Scotland
+                <div class="track-featuring">feat. Da Mouth of Madness & Piper.Ally</div>
+              </div>
+              <div class="track-duration">2:56</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                The Sky on Fire (Dr. Peacock Remix)
+                <div class="track-featuring">Ophidian</div>
+              </div>
+              <div class="track-duration">3:44</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                The Hypnotist
+                <div class="track-featuring">feat. The Speed Freak</div>
+              </div>
+              <div class="track-duration">4:31</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Serbia
+                <div class="track-featuring">feat. Sefa</div>
+              </div>
+              <div class="track-duration">2:59</div>
+            </li>
+            <li class="track">
+              <div class="track-title">The Doctor Said</div>
+              <div class="track-duration">3:34</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Hit the Road Jack
+                <div class="track-featuring">feat. JKLL</div>
+              </div>
+              <div class="track-duration">3:09</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Total Stranger
+                <div class="track-featuring">feat. KLAKMATRAK</div>
+              </div>
+              <div class="track-duration">3:24</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Morocco
+                <div class="track-featuring">feat. Angernoizer</div>
+              </div>
+              <div class="track-duration">3:31</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Greece
+                <div class="track-featuring">feat. Dimitri K</div>
+              </div>
+              <div class="track-duration">3:07</div>
+            </li>
+          </ul>
+        </div>
+      </li>
 
-  <img src="https://i.scdn.co/image/ab67616d00001e027a5079767046790af2f25c16" alt="Illustration de l'album">
-  <h2>The Doc's Experiment - Proof 1</h2>
+      <li class="album">
+        <div class="album-side">
+          <img src="https://i.scdn.co/image/ab67616d00001e027a5079767046790af2f25c16" alt="Illustration de l'album">
 
-  <ul>
-    <li>We Are All Sleeping</li>
-    <li>Trippie Naar De Klote</li>
-    <li>Warriors of Valhalla</li>
-    <li>Killing No More</li>
-    <li>Cognitive Dissonance (Hard Version)</li>
-    <li>Black Gold (Edit)</li>
-    <li>Voice of the Void</li>
-    <li>I Will Find You</li>
-    <li>Swallow It</li>
-    <li>Untold Prophecy</li>
-  </ul>
+          <ul class="album-info">
+            <li>10 morceaux</li>
+            <li>35 minutes</li>
+          </ul>
+        </div>
 
-  <img src="https://i.scdn.co/image/ab67616d00001e0274c127d9997c381d67352d45" alt="Illustration de l'album">
-  <h2>Medication Time</h2>
+        <div class="album-content">
+          <h2 class="album-title">The Doc's Experiment - Proof 1</h2>
+  
+          <div class="album-actions">
+            <button class="btn">Lecture</button>
+            <button class="btn">Aléatoire</button>
+          </div>
 
-  <ul>
-    <li>Trip to Latvia</li>
-    <li>Das Boot (feat. Chrono)</li>
-    <li>Drink</li>
-    <li>Influenceur (Hard Version)</li>
-    <li>The Wonders of the Universe</li>
-    <li>Japanese Nightclub</li>
-    <li>Conflict</li>
-    <li>Still Standing Strong</li>
-    <li>Trip to Valhalla</li>
-    <li>A500 Rebooted</li>
-    <li>Party Rocker</li>
-    <li>Lofi Rumba</li>
-    <li>Rage</li>
-    <li>Illusion of Time</li>
-    <li>Peacock in Babylon</li>
-    <li>This Is Your Illusion</li>
-    <li>Trip to Arabia</li>
-    <li>Cavalcade</li>
-    <li>Medication Time</li>
-    <li>Trip to Catalonia</li>
-    <li>The Time Is Now</li>
-    <li>Everything Falls Apart</li>
-  </ul>
+          <ul class="track-list">
+            <li class="track">
+              <div class="track-title">
+                We Are All Sleeping
+                <div class="track-featuring">feat. Creeds Hardside & Helen Ka</div>
+              </div>
+              <div class="track-duration">4:38</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trippie Naar De Klote
+                <div class="track-featuring">feat. Steen</div>
+              </div>
+              <div class="track-duration">3:12</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Warriors of Valhalla
+                <div class="track-featuring">feat. JKLL</div>
+              </div>
+              <div class="track-duration">2:40</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Killing No More
+                <div class="track-featuring">feat. The Prophet</div>
+              </div>
+              <div class="track-duration">2:37</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Cognitive Dissonance (Hard Version)
+                <div class="track-featuring">feat. Helene Vogelsinger</div>
+              </div>
+              <div class="track-duration">4:19</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Black Gold (Edit)
+                <div class="track-featuring">feat. Mat Weasel Busters & neika</div>
+              </div>
+              <div class="track-duration">3:00</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Voice of the Void
+                <div class="track-featuring">feat. Mr. Ivex</div>
+              </div>
+              <div class="track-duration">3:23</div>
+            </li>
+            <li class="track">
+              <div class="track-title">I Will Find You</div>
+              <div class="track-duration">4:00</div>
+            </li>
+            <li class="track">
+              <div class="track-title">Swallow It</div>
+              <div class="track-duration">3:32</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Untold Prophecy
+                <div class="track-featuring">feat. Hellcreator</div>
+              </div>
+              <div class="track-duration">4:01</div>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="album">
+        <div class="album-side">
+          <img src="https://i.scdn.co/image/ab67616d00001e0274c127d9997c381d67352d45" alt="Illustration de l'album">
+
+          <ul class="album-info">
+            <li>22 morceaux</li>
+            <li>1 heure et 19 minutes</li>
+          </ul>
+        </div>
+        
+        <div class="album-content">
+          <h2 class="album-title">Medication Time</h2>
+  
+          <div class="album-actions">
+            <button class="btn">Lecture</button>
+            <button class="btn">Aléatoire</button>
+          </div>
+          
+          <ul class="track-list">
+            <li class="track">
+              <div class="track-title">
+                Trip to Latvia
+                <div class="track-featuring">feat. Haralds Simanis</div>
+              </div>
+              <div class="track-duration">4:13</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Das Boot (feat. Chrono)
+                <div class="track-featuring">feat. Sefa</div>
+              </div>
+              <div class="track-duration">4:08</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Drink
+                <div class="track-featuring">feat. D-Frek</div>
+              </div>
+              <div class="track-duration">3:05</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Influenceur (Hard Version)
+                <div class="track-featuring">feat. ascendant vierge</div>
+              </div>
+              <div class="track-duration">3:40</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                The Wonders of the Universe
+                <div class="track-featuring">feat. Ophidian</div>
+              </div>
+              <div class="track-duration">4:02</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Japanese Nightclub
+                <div class="track-featuring">feat. Guigoo</div>
+              </div>
+              <div class="track-duration">2:41</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Conflict
+                <div class="track-featuring">feat. DETHVEDA</div>
+              </div>
+              <div class="track-duration">2:59</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Still Standing Strong
+                <div class="track-featuring">feat. Odium & Da Mouth of Madness</div>
+              </div>
+              <div class="track-duration">3:36</div>
+            </li>
+            <li class="track">
+              <div class="track-title">Trip to Valhalla</div>
+              <div class="track-duration">3:53</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                A500 Rebooted
+                <div class="track-featuring">feat. Stormtrooper</div>
+              </div>
+              <div class="track-duration">3:52</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Party Rocker
+                <div class="track-featuring">feat. neika</div>
+              </div>
+              <div class="track-duration">3:38</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Lofi Rumba
+                <div class="track-featuring">feat. Tanukichi</div>
+              </div>
+              <div class="track-duration">2:16</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Rage
+                <div class="track-featuring">feat. Floxytek</div>
+              </div>
+              <div class="track-duration">2:53</div>
+            </li>
+            <li class="track">
+              <div class="track-title">Illusion of Time</div>
+              <div class="track-duration">5:00</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Peacock in Babylon
+                <div class="track-featuring">feat. Da Mouth of Madness</div>
+              </div>
+              <div class="track-duration">4:14</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                This Is Your Illusion
+                <div class="track-featuring">feat. The Sickest Squad</div>
+              </div>
+              <div class="track-duration">3:45</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Arabia
+                <div class="track-featuring">feat. Billx & Paul Gannon</div>
+              </div>
+              <div class="track-duration">3:41</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Cavalcade
+                <div class="track-featuring">feat. Mat Weasel Busters</div>
+              </div>
+              <div class="track-duration">3:03</div>
+            </li>
+            <li class="track">
+              <div class="track-title">Medication Time</div>
+              <div class="track-duration">4:18</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Trip to Catalonia
+                <div class="track-featuring">feat. Angernoizer</div>
+              </div>
+              <div class="track-duration">3:02</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                The Time Is Now
+                <div class="track-featuring">feat. Alee</div>
+              </div>
+              <div class="track-duration">3:29</div>
+            </li>
+            <li class="track">
+              <div class="track-title">
+                Everything Falls Apart
+                <div class="track-featuring">feat. Aekhloria</div>
+              </div>
+              <div class="track-duration">3:27</div>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+  </div>
 </body>
+
 </html>
